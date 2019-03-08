@@ -6,9 +6,9 @@ object Dependencies {
     val shapeless           = "2.3.3"
     val typesafeConfig      = "1.3.3"
 
-    val scalaTest           = "3.0.5"
-    val scalaCheck          = "1.13.5" // update blocked by cats-laws in the cats module (https://github.com/typelevel/cats/issues/2449)
-    val scalaCheckShapeless = "1.1.8"
+    val scalaTest           = "3.0.6"
+    val scalaCheck          = "1.14.0" // update blocked by cats-laws in the cats module (https://github.com/typelevel/cats/issues/2449)
+    val scalaCheckShapeless = "1.2.0"
   }
 
   val shapeless = "com.chuusai" %% "shapeless" % Version.shapeless
@@ -17,5 +17,5 @@ object Dependencies {
   // testing libraries
   val scalaTest = "org.scalatest" %% "scalatest" % Version.scalaTest % "test"
   val scalaCheck = "org.scalacheck" %% "scalacheck" % Version.scalaCheck % "test"
-  val scalaCheckShapeless = "com.github.alexarchambault" %% "scalacheck-shapeless_1.13" % Version.scalaCheckShapeless % "test"
+  val scalaCheckShapeless = "com.github.alexarchambault" %% "scalacheck-shapeless_1.14" % Version.scalaCheckShapeless % "test"
 }
